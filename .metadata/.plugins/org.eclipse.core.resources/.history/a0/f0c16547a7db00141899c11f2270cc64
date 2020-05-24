@@ -1,0 +1,17 @@
+/*
+ * ExectMatcher.h
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef EXECTMATCHER_H_
+#define EXECTMATCHER_H_
+
+class ExectMatcher {
+public:
+	ExectMatcher();
+	virtual ~ExectMatcher();
+};
+
+#endif /* EXECTMATCHER_H_ */

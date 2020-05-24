@@ -1,0 +1,17 @@
+/*
+ * ExactMatcher.h
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef EXACTMATCHER_H_
+#define EXACTMATCHER_H_
+
+class ExactMatcher {
+public:
+	ExactMatcher();
+	virtual ~ExactMatcher();
+};
+
+#endif /* EXACTMATCHER_H_ */

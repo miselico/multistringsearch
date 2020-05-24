@@ -1,0 +1,22 @@
+/*
+ * ExactMatcher.h
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef EXACTMATCHER_H_
+#define EXACTMATCHER_H_
+
+#include <ctype.h>
+
+class ExactMatcher {
+public:
+	ExactMatcher();
+	virtual ~ExactMatcher();
+
+	//void add(uint8_t * patternStart);
+
+};
+
+#endif /* EXACTMATCHER_H_ */

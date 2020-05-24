@@ -1,0 +1,33 @@
+/*
+ * rabinhash.h
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef RABINHASH_H_
+#define RABINHASH_H_
+
+#include <stdint.h>
+namespace RabinHash {
+class RabinHash {
+private:
+	//this should become public when romovePostiions are iplemented
+	RabinHash(uint_fast64_t polynome, uint_fast64_t removePositions);
+public:
+//	RabinHash(uint_fast64_t polynome){
+//		RabinHash(polynome, 0);
+//	}
+	//push amount chars
+	uint_fast64_t push(char * value, uint8_t amount);
+	//push 1 char
+	uint_fast64_t push(char * value);
+//Fixed to
+	RabinHash();
+
+private:
+	uint_fast64_t value;
+
+};
+}
+#endif /* RABINHASH_H_ */

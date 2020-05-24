@@ -1,0 +1,24 @@
+/*
+ * ExactMatcher.cpp
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#include "ExactMatcher.h"
+
+namespace exactMathcer{
+ExactMatcher::ExactMatcher() {
+	// TODO Auto-generated constructor stub
+
+}
+
+ExactMatcher::~ExactMatcher() {
+	// TODO Auto-generated destructor stub
+}
+
+void ExactMatcher::add(uint8_t * start){
+
+}
+
+}

@@ -1,0 +1,7 @@
+20:04:14 **** Incremental Build of configuration Debug for project multisearchgcc ****
+make all 
+Building file: ../src/multisearchgcc.cpp
+cc1plus: error: unrecognized command line option ‘-std=gnu++11’
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0  -std=gnu++11 -MMD -MP -MF"src/multisearchgcc.d" -MT"src/multisearchgcc.d" -o "src/multisearchgcc.o" "../src/multisearchgcc.cpp"
+make: *** [src/multisearchgcc.o] Error 1

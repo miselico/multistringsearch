@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : mutisearch.cpp
+// Author      : Michael Cochez
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "rabinhash.h"
+
+using namespace std;
+using namespace rabin;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	RabinHash hashFunc;
+	for (uint32_t i = 0; i < 256*256; i++){
+		uint8_t * v = (uint8_t *) (&i);
+		hashFunc.push(v, 4);
+		cout << hashFunc.fingerprint << endl;
+		cout << "Bla" << int(i) << endl;
+	}
+	return 0;
+}

@@ -1,0 +1,10 @@
+20:02:26 **** Incremental Build of configuration Release for project multisearch ****
+make all 
+Building file: ../src/ExactMatcher.cpp
+Invoking: Cross G++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/ExactMatcher.d" -MT"src/ExactMatcher.d" -o "src/ExactMatcher.o" "../src/ExactMatcher.cpp"
+cc1plus: error: unrecognized command line option ‘-std=c++11’
+make: *** [src/ExactMatcher.o] Error 1
+
+20:02:26 Build Finished (took 122ms)
+

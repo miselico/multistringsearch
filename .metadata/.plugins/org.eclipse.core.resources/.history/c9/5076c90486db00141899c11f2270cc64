@@ -1,0 +1,12 @@
+/*
+ * rabinhash.cpp
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#include "rabinhash.h"
+
+RabinHash::RabinHash():value(0){
+
+	}

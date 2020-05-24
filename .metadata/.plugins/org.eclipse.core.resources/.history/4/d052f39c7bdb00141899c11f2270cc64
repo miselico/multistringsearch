@@ -1,0 +1,24 @@
+/*
+ * rabinhash.h
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef RABINHASH_H_
+#define RABINHASH_H_
+
+#include <stdint.h>
+
+class RabinHash {
+private:
+	RabinHash(uint_fast64_t polynome, uint_fast64_t removePositions);
+public:
+	RabinHash(uint_fast64_t polynome){
+		RabinHash(polynome, 0);
+	}
+
+	u_int_fast64_t uint_fast64_t push(*char value)
+};
+
+#endif /* RABINHASH_H_ */

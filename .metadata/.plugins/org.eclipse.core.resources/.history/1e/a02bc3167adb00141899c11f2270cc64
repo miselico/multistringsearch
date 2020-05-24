@@ -1,0 +1,18 @@
+/*
+ * rabinhash.h
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef RABINHASH_H_
+#define RABINHASH_H_
+
+class RabinHash {
+public:
+	RabinHash() {
+
+	}
+};
+
+#endif /* RABINHASH_H_ */

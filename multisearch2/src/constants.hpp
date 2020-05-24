@@ -1,0 +1,13 @@
+/*
+ * constants.hpp
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#ifndef CONSTANTS_HPP_
+#define CONSTANTS_HPP_
+
+
+
+#endif /* CONSTANTS_HPP_ */

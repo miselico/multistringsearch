@@ -1,0 +1,15 @@
+17:53:08 **** Incremental Build of configuration Release for project mutisearch ****
+make all 
+Building file: ../src/mutisearch.cpp
+Invoking: Cross G++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mutisearch.d" -MT"src/mutisearch.d" -o "src/mutisearch.o" "../src/mutisearch.cpp"
+Finished building: ../src/mutisearch.cpp
+ 
+Building target: mutisearch
+Invoking: Cross G++ Linker
+g++  -o "mutisearch"  ./src/mutisearch.o ./src/rabinhash.o   
+Finished building target: mutisearch
+ 
+
+17:53:09 Build Finished (took 417ms)
+

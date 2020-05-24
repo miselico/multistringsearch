@@ -1,0 +1,26 @@
+/*
+ * rabinhash.cpp
+ *
+ *  Created on: Apr 5, 2015
+ *      Author: michael
+ */
+
+#include "rabinhash.h"
+
+namespace RabinHash {
+
+
+
+RabinHash::RabinHash() :
+		value(0) {
+}
+
+uint_fast64_t RabinHash::push(uint8_t * value){
+	return this->value;
+}
+
+uint_fast64_t RabinHash::push(uint8_t * value, uint_fast8_t amount){
+	return this->value;
+}
+
+}

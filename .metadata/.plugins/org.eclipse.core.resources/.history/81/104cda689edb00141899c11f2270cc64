@@ -1,0 +1,39 @@
+//============================================================================
+// Name        : mutisearch.cpp
+// Author      : Michael Cochez
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "rabinhash.h"
+#include <boost/interprocess/file_mapping.hpp>
+#include <boost/interprocess/mapped_region.hpp>
+
+using namespace std;
+using namespace rabin;
+
+int rabinHashTest() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	RabinHash hashFunc;
+	for (uint32_t i = 0; i < 256 * 256; i++){
+		uint32_t * pi = &i;
+		uint8_t * v = (uint8_t *) (pi);
+		//iterate 'backward - endianness'
+		for (int j = 3; j >= 0; j--){
+			hashFunc.push(v + j);
+		}
+		cout << hashFunc.fingerprint << endl;
+		//cout << int(i) << endl;
+	}
+	return 0;
+}
+
+
+int main(){
+	using boost::interprocess;
+
+	return 0;
+}
+}
